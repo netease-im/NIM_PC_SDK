@@ -1898,7 +1898,7 @@ SDK 提供了用户好友关系管理，以及对用户会话的消息设置。�
 
 
 ## <span id="SDKC++封装层">SDK C++封装层</span>
- * [C++ 封装层](?t=pc&md=pc_cpp "target=_blank")
+ * [C++ 封装层](http://dev.netease.im/docs/index.php?t=pc&md=pc "target=_blank")
  
 ## <span id="API文档">API文档</span>
 * [SDK在线文档(C)](http://dev.netease.im/doc/pc/NIMSDKAPI_C/html/files.html "target=_blank")
@@ -1907,8 +1907,8 @@ SDK 提供了用户好友关系管理，以及对用户会话的消息设置。�
 * [Audio在线文档](http://dev.netease.im/doc/pc/NIMAudioAPI/html/files.html "target=_blank")
 
 ## <span id="changelog">Change Log</span>
- * [更新记录](?t=pc&md=pc_changelog "target=_blank")
+ * [更新记录](http://dev.netease.im/docs/index.php?t=pc&md=pc_changelog "target=_blank")
 
 ## <span id="状态码">状态码</span>
- * [状态码表](?md=nim_status_code "target=_blank")
+ * [状态码表](http://dev.netease.im/docs/index.php?t=pc&md=nim_status_code "target=_blank")
  
