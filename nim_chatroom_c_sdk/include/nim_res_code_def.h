@@ -1,6 +1,6 @@
 ﻿/** @file nim_res_code_def.h
   * @brief NIM SDK提供给外部使用的错误号定义（包含客户端自定义和服务器返回的所有错误号）
-  * @copyright (c) 2015-2016, NetEase Inc. All rights reserved
+  * @copyright (c) 2015, NetEase Inc. All rights reserved
   * @author Harrison
   * @date 2015/2/1
   */
@@ -43,7 +43,7 @@ enum NIMResCode
 	kNIMResTeamApplySuccess		= 808,		/**< 申请成功 */
 	kNIMResTeamAlreadyIn		= 809,		/**< 已经在群里 */
 	kNIMResTeamInviteSuccess	= 810,		/**< 邀请成功 */
-	//数据解编错误代码
+	//数据整解编错误代码
 	kNIMResInvalidProtocol		= 997,		/**< 协议已失效 */
 	kNIMResEUnpacket			= 998,		/**< 解包错误 */
 	kNIMResEPacket				= 999,		/**< 打包错误 */
@@ -69,8 +69,8 @@ enum NIMResCode
 
 	//客户端自定义的api调用问题
 	kNIMLocalResAPIErrorInitUndone	= 20000,		/**< 还未初始化或初始化未正常完成 */
-	kNIMLocalResAPIErrorLoginUndone	= 20001,		/**< 还未登陆或登录未完成 */
-	kNIMLocalResAPIErrorLogined		= 20002,		/**< 已经登录 */
+	kNIMLocalResAPIErrorEnterUndone	= 20001,		/**< 还未登陆或登录未完成 */
+	kNIMLocalResAPIErrorEntered		= 20002,		/**< 已经登录 */
 	kNIMLocalResAPIErrorVersionError= 20003,		/**< SDK版本不对，可能会引发其他问题 */
 };
 
